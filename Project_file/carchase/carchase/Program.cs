@@ -1,0 +1,314 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading;
+
+namespace carchase
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int e;
+            do
+            {
+                Console.ForegroundColor = ConsoleColor.Green;
+                //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                for (int i = 0; i < 5; i++)
+                {
+                    Console.WriteLine("<?> ");
+                    Thread.Sleep(1000);
+                    Console.Clear();
+                    Thread.Sleep(1000);
+                }
+
+                //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                Thread.Sleep(500);
+                Console.Clear();
+
+                Console.WriteLine("CL <?>");
+
+                Thread.Sleep(500);
+                Console.Clear();
+
+                Console.WriteLine("CLIC <?>");
+
+                Thread.Sleep(500);
+                Console.Clear();
+
+                Console.WriteLine("CLICK 1 T <?>");
+
+                Thread.Sleep(500);
+                Console.Clear();
+
+                Console.WriteLine("CLICK 1 TO S <?>");
+
+                Thread.Sleep(500);
+                Console.Clear();
+
+                Console.WriteLine("CLICK 1 TO STA <?>");
+
+                Thread.Sleep(500);
+                Console.Clear();
+
+                Console.WriteLine("CLICK 1 TO START T <?>");
+
+                Thread.Sleep(500);
+                Console.Clear();
+
+                Console.WriteLine("CLICK 1 TO START THE A <?>");
+
+                Thread.Sleep(500);
+                Console.Clear();
+
+                Console.WriteLine("CLICK 1 TO START THE ANIMA <?>");
+
+                Thread.Sleep(500);
+                Console.Clear();
+
+                Console.WriteLine("CLICK 1 TO START THE ANIMATIO <?>");
+
+                Thread.Sleep(500);
+                Console.Clear();
+
+                Console.WriteLine("CLICK 1 TO START THE ANIMATION... <?>  ");
+
+                e = int.Parse(Console.ReadLine());
+
+                if (e == 1)
+                {
+                    Console.Clear();
+                    Console.ForegroundColor = ConsoleColor.Red;
+
+                    Console.WriteLine("                                       ");
+                    Console.WriteLine("                                       ");
+                    Console.WriteLine("                                       ");
+                    Console.WriteLine("   _______");
+                    Console.WriteLine("  | [] [] )___");
+                    Console.WriteLine("  O-----------O");
+                    Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+
+                    Thread.Sleep(900);
+                    Console.Clear();
+
+                    Console.WriteLine("                                       ");
+                    Console.WriteLine("                                       ");
+                    Console.WriteLine("                                       ");
+                    Console.WriteLine("      _______");
+                    Console.WriteLine("     | [] [] )___");
+                    Console.WriteLine("     O-----------O");
+                    Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+
+                    Thread.Sleep(900);
+                    Console.Clear();
+
+                    Console.WriteLine("                                       ");
+                    Console.WriteLine("                                       ");
+                    Console.WriteLine("                                       ");
+                    Console.WriteLine("        _______");
+                    Console.WriteLine("       | [] [] )___");
+                    Console.WriteLine("       O-----------O");
+                    Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+
+                    Thread.Sleep(900);
+                    Console.Clear();
+
+                    Console.WriteLine("                                       ");
+                    Console.WriteLine("                                       ");
+                    Console.WriteLine("                                       ");
+                    Console.WriteLine("           _______");
+                    Console.WriteLine("          | [] [] )___");
+                    Console.WriteLine("          O-----------O");
+                    Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+
+                    Thread.Sleep(900);
+                    Console.Clear();
+
+                    Console.WriteLine("                                       ");
+                    Console.WriteLine("                                       ");
+                    Console.WriteLine("                                       ");
+                    Console.WriteLine("              _______");
+                    Console.WriteLine("             | [] [] )___");
+                    Console.WriteLine("             O-----------O");
+                    Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+
+                    Thread.Sleep(900);
+                    Console.Clear();
+
+                    Console.WriteLine("                                       ");
+                    Console.WriteLine("                                       ");
+                    Console.WriteLine("@)                                       ");
+                    Console.WriteLine("                 _______");
+                    Console.WriteLine("                | [] [] )___");
+                    Console.WriteLine("                O-----------O");
+                    Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+
+                    Thread.Sleep(900);
+                    Console.Clear();
+
+                    Console.WriteLine("                                       ");
+                    Console.WriteLine("\\_                                        ");
+                    Console.WriteLine("-(@)                                       ");
+                    Console.WriteLine("                   _______");
+                    Console.WriteLine("                  | [] [] )___");
+                    Console.WriteLine("                  O-----------O");
+                    Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+
+                    Thread.Sleep(900);
+                    Console.Clear();
+
+                    Console.WriteLine("                                       ");
+                    Console.WriteLine("___                                       ");
+                    Console.WriteLine("*> \\__                                       ");
+                    Console.WriteLine("------(@)               _______");
+                    Console.WriteLine("                       | [] [] )___");
+                    Console.WriteLine("                       O-----------O");
+                    Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+
+                    Thread.Sleep(900);
+                    Console.Clear();
+
+                    Console.WriteLine("                                       ");
+                    Console.WriteLine("                                       ");
+                    Console.WriteLine("_____                                       ");
+                    Console.WriteLine(" <*> \\__                  _______");
+                    Console.WriteLine("--------(@)              | [] [] )___");
+                    Console.WriteLine("                         O-----------O");
+                    Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+
+                    Thread.Sleep(900);
+                    Console.Clear();
+
+                    Console.WriteLine("                                       ");
+                    Console.WriteLine("                                       ");
+                    Console.WriteLine("                                       ");
+                    Console.WriteLine("  /\\_____                    _______");
+                    Console.WriteLine(" /   <*> \\__                | [] [] )___");
+                    Console.WriteLine("(@)---------(@)             O-----------O");
+                    Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+
+                    Thread.Sleep(900);
+                    Console.Clear();
+
+                    Console.WriteLine("                                       ");
+                    Console.WriteLine("                                       ");
+                    Console.WriteLine("                                       ");
+                    Console.WriteLine("        /\\_____                 _______");
+                    Console.WriteLine("       /   <*> \\__             | [] [] )___");
+                    Console.WriteLine("      (@)---------(@)          O-----------O");
+                    Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+
+                    Thread.Sleep(900);
+                    Console.Clear();
+
+                    Console.WriteLine("                                       ");
+                    Console.WriteLine("                                       ");
+                    Console.WriteLine("                                       ");
+                    Console.WriteLine("              /\\_____              _______");
+                    Console.WriteLine("             /   <*> \\__          | [] [] )___");
+                    Console.WriteLine("            (@)---------(@)       O-----------O");
+                    Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+
+                    Thread.Sleep(900);
+                    Console.Clear();
+
+                    Console.WriteLine("                                       ");
+                    Console.WriteLine("                                       ");
+                    Console.WriteLine("                                       ");
+                    Console.WriteLine("                    /\\_____           _______");
+                    Console.WriteLine("                   /   <*> \\__       | [] [] )___");
+                    Console.WriteLine("                  (@)---------(@)    O-----------O");
+                    Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+
+                    Thread.Sleep(900);
+                    Console.Clear();
+
+                    Console.WriteLine("                                       ");
+                    Console.WriteLine("                                       ");
+                    Console.WriteLine("                                       ");
+                    Console.WriteLine("                          /\\_____       _______");
+                    Console.WriteLine("                         /   <*> \\__   | [] [] )___");
+                    Console.WriteLine("                        (@)---------(@)O-----------O");
+                    Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+
+                    Thread.Sleep(900);
+                    Console.Clear();
+
+                    Console.WriteLine("                                       ");
+                    Console.WriteLine("                                       ");
+                    Console.WriteLine("                                       ");
+                    Console.WriteLine("                            /\\_____             _______");
+                    Console.WriteLine("                           /   <*> \\__         | [] [] )___");
+                    Console.WriteLine("                          (@)---------(@)      O-----------O");
+                    Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+
+                    Thread.Sleep(900);
+                    Console.Clear();
+
+                    Console.WriteLine("                                       ");
+                    Console.WriteLine("                                       ");
+                    Console.WriteLine("                                       ");
+                    Console.WriteLine("                             /\\_____                   _______");
+                    Console.WriteLine("                            /   <*> \\__               | [] [] )___");
+                    Console.WriteLine("                           (@)---------(@)            O-----------O");
+                    Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+
+                    Thread.Sleep(900);
+                    Console.Clear();
+
+                    Console.WriteLine("                                       ");
+                    Console.WriteLine("                                       ");
+                    Console.WriteLine("                                       ");
+                    Console.WriteLine("                              /\\_____                         _______");
+                    Console.WriteLine("                             /   <*> \\__                     | [] [] )___");
+                    Console.WriteLine("                            (@)---------(@)                  O-----------O");
+                    Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+
+                    Thread.Sleep(900);
+                    Console.Clear();
+
+                    Console.WriteLine("                                       ");
+                    Console.WriteLine("                                       ");
+                    Console.WriteLine("                                       ");
+                    Console.WriteLine("                               /\\_____                               _______");
+                    Console.WriteLine("                              /   <*> \\__                           | [] [] )___");
+                    Console.WriteLine("                             (@)---------(@)                        O-----------O");
+                    Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+
+                    Thread.Sleep(900);
+                    Console.Clear();
+
+                    Console.WriteLine("                                                                      ");
+                    Console.WriteLine("                                                                         ");
+                    Console.WriteLine("                                                             ");
+                    Console.WriteLine("                               /\\_____                                     _______");
+                    Console.WriteLine("                              /   <*> \\__                                 | [] [] )___");
+                    Console.WriteLine("                             (@)---------(@)                            O  -----------     O");
+                    Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+
+                    Thread.Sleep(900);
+                    Console.Clear();
+
+                    Console.WriteLine("                                                                      ");
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.WriteLine("                                                                       ");
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("                                                                   ");
+                    Console.WriteLine("                               /\\_____                                     _______");
+                    Console.WriteLine("                              /   <*> \\__                                 | [] [] )___");
+                    Console.WriteLine("                             (@)---------(@)                            O  -----------     O");
+                    Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+
+
+                    Console.Clear();
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.WriteLine("WANT TO RESTART THE ANIMATION? 1=YES ,2=NO :");
+                    e = int.Parse(Console.ReadLine());
+                    Console.Read();
+                }
+            } while (e != 2);
+        }
+    }
+    
+}
